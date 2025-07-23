@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+#input-name {
+	border: 2px solid black;
+	margin: 5px;
+	padding: 5px;
+	width: 250px;
+}
+
+input[type="submit"] {
+	border: none;
+	background: rgb(45, 187, 45);
+	color: white;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+tr {
+	width: 80%;
+}
+
+th,
+td {
+	border: 1px black solid;
+	margin: 0;
+	height: 30px;
+}
+
+#th-name {
+	width: 30%;
+}
+
+#th-date {
+	width: 30%;
+}
+
+#th-amount {
+	width: 30%;
+}
